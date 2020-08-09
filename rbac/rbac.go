@@ -1,8 +1,8 @@
 package rbac
 
 import (
-	"gitee.com/luoyusnnu/thinkgo/model"
-	rbac_adapter "gitee.com/luoyusnnu/thinkgo/rbac/adapter"
+	"gitee.com/sahara-gopher/thinkgo/model"
+	rbac_adapter "gitee.com/sahara-gopher/thinkgo/rbac/adapter"
 	"github.com/casbin/casbin/v2"
 	"github.com/jinzhu/gorm"
 )

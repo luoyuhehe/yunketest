@@ -1,9 +1,9 @@
 package thinkgo
 
 import (
-	"gitee.com/luoyusnnu/thinkgo/session"
-	"gitee.com/luoyusnnu/thinkgo/session/session_store"
-	"gitee.com/luoyusnnu/thinkgo/utils"
+	"gitee.com/sahara-gopher/thinkgo/session"
+	"gitee.com/sahara-gopher/thinkgo/session/session_store"
+	"gitee.com/sahara-gopher/thinkgo/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
 )

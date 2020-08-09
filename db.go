@@ -2,7 +2,7 @@ package thinkgo
 
 import (
 	"fmt"
-	"gitee.com/luoyusnnu/thinkgo/db"
+	"gitee.com/sahara-gopher/thinkgo/db"
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 	"sync"

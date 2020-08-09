@@ -2,7 +2,7 @@ package thinkgo
 
 import (
 	"fmt"
-	"gitee.com/luoyusnnu/thinkgo/log"
+	"gitee.com/sahara-gopher/thinkgo/log"
 )
 
 //默认创建的日志对象,比init先执行

@@ -2,9 +2,9 @@ package captcha
 
 import (
 	"fmt"
-	"gitee.com/luoyusnnu/thinkgo"
-	"gitee.com/luoyusnnu/thinkgo/log"
-	"gitee.com/luoyusnnu/thinkgo/utils"
+	"gitee.com/sahara-gopher/thinkgo"
+	"gitee.com/sahara-gopher/thinkgo/log"
+	"gitee.com/sahara-gopher/thinkgo/utils"
 	"github.com/gomodule/redigo/redis"
 	"github.com/mojocn/base64Captcha"
 	"github.com/pkg/errors"

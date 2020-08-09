@@ -1,7 +1,7 @@
 package thinkgo
 
 import (
-	"gitee.com/luoyusnnu/thinkgo/log"
+	"gitee.com/sahara-gopher/thinkgo/log"
 	"github.com/gin-gonic/gin"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"

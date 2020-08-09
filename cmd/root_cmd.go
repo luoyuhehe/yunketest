@@ -3,14 +3,14 @@ package cmd
 import (
 	"errors"
 	"fmt"
-	"gitee.com/luoyusnnu/thinkgo/cmd/migrate_cmd"
-	"gitee.com/luoyusnnu/thinkgo/cmd/server_cmd"
-	"gitee.com/luoyusnnu/thinkgo/log"
+	"gitee.com/sahara-gopher/thinkgo/cmd/migrate_cmd"
+	"gitee.com/sahara-gopher/thinkgo/cmd/server_cmd"
+	"gitee.com/sahara-gopher/thinkgo/log"
 	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
-	Use:               "gitee.com/luoyusnnu/thinkgo",
+	Use:               "gitee.com/sahara-gopher/thinkgo",
 	Short:             "-v",
 	SilenceUsage:      true,
 	DisableAutoGenTag: true,

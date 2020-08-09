@@ -1,7 +1,7 @@
 package thinkgo
 
 import (
-	"gitee.com/luoyusnnu/thinkgo/utils"
+	"gitee.com/sahara-gopher/thinkgo/utils"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
