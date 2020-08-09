@@ -1,6 +1,6 @@
 # thinkgo
 
-thinkgo 是快速开发框架，包含了session、日志、配置管理、rbac鉴权、中间件和验证码等常用组件的封装
+thinkgo 是一个快速开发框架，包含了session、日志、配置管理、rbac鉴权、中间件和验证码等常用组件的封装
 
 
 ## Quick Start
