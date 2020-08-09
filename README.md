@@ -119,11 +119,6 @@ rbac:
 ```go
 package main
 
-import "github.com/sahara-gopher/thinkgo"
-
-func main(){
-    package main
-
 import (
 	"gitee.com/luoyusnnu/thinkgo"
 	"github.com/gin-gonic/gin"
@@ -135,9 +130,7 @@ func main() {
 	httpApp := &thinkgo.HttpApp{
 		RegisterRouter: func(engine *gin.Engine) (err error) {
 			router.RegisterStaticFileRouter(engine)
-			// 方便统一添加路由组前缀 多服务器上线使用
 			BaseGroup := engine.Group(thinkgo.AppConfig.BaseRouterGroup)
-			//router.POST("register", v1.Register)
 			BaseGroup.Group("admin").POST("user/login", func(ctx *gin.Context) {
 			})
 			thinkgo.GetLogger().Info("router register success")
