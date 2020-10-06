@@ -2,9 +2,9 @@ package thinkgo
 
 import (
 	"fmt"
-	"gitee.com/sahara-gopher/thinkgo/config"
-	"gitee.com/sahara-gopher/thinkgo/log"
-	"gitee.com/sahara-gopher/thinkgo/utils"
+	"gitee.com/sahara-go/thinkgo/config"
+	"gitee.com/sahara-go/thinkgo/log"
+	"gitee.com/sahara-go/thinkgo/utils"
 	"github.com/pkg/errors"
 )
 

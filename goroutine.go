@@ -2,7 +2,7 @@ package thinkgo
 
 import (
 	"context"
-	"gitee.com/sahara-gopher/thinkgo/log"
+	"gitee.com/sahara-go/thinkgo/log"
 	"runtime/debug"
 )
 

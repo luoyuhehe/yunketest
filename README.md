@@ -16,7 +16,7 @@ thinkgo 是一个快速开发框架，包含了session、日志、配置管理�
 
 #### Download and install
 
-    go get github.com/sahara-gopher/thinkgo
+    go get github.com/sahara-go/thinkgo
     
 #### Create file `config/app.yaml`
 
@@ -120,7 +120,7 @@ rbac:
 package main
 
 import (
-	"gitee.com/sahara-gopher/thinkgo"
+	"gitee.com/sahara-go/thinkgo"
 	"github.com/gin-gonic/gin"
 	"gofast-admin/router"
 )

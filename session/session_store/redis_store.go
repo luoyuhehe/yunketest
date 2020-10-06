@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/sahara-gopher/thinkgo/log"
+	"gitee.com/sahara-go/thinkgo/log"
 	"github.com/gomodule/redigo/redis"
 	"github.com/gorilla/securecookie"
 	"github.com/gorilla/sessions"

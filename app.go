@@ -3,8 +3,8 @@ package thinkgo
 import (
 	"context"
 	"fmt"
-	"gitee.com/sahara-gopher/thinkgo/event"
-	"gitee.com/sahara-gopher/thinkgo/validate"
+	"gitee.com/sahara-go/thinkgo/event"
+	"gitee.com/sahara-go/thinkgo/validate"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/pkg/errors"
