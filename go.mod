@@ -1,4 +1,4 @@
-module gitee.com/sahara-gopher/thinkgo
+module gitee.com/sahara-go/thinkgo
 
 go 1.14
 
