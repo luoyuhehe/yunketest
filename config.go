@@ -2,10 +2,10 @@ package thinkgo
 
 import (
 	"fmt"
-	"gitee.com/sahara-go/thinkgo/config"
-	"gitee.com/sahara-go/thinkgo/log"
-	"gitee.com/sahara-go/thinkgo/utils"
 	"github.com/pkg/errors"
+	"github.com/sahara-go/thinkgo/config"
+	"github.com/sahara-go/thinkgo/log"
+	"github.com/sahara-go/thinkgo/utils"
 )
 
 const (

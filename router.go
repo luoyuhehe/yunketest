@@ -1,8 +1,8 @@
 package thinkgo
 
 import (
-	"gitee.com/sahara-go/thinkgo/log"
 	"github.com/gin-gonic/gin"
+	"github.com/sahara-go/thinkgo/log"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 )

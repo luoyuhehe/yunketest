@@ -1,8 +1,8 @@
 package thinkgo
 
 import (
-	"gitee.com/sahara-go/thinkgo/rbac"
 	"github.com/pkg/errors"
+	"github.com/sahara-go/thinkgo/rbac"
 	"sync"
 )
 

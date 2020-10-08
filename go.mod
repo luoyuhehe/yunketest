@@ -1,4 +1,4 @@
-module gitee.com/sahara-go/thinkgo
+module github.com/sahara-go/thinkgo
 
 go 1.14
 

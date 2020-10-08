@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"gitee.com/sahara-go/thinkgo/log"
 	"github.com/gomodule/redigo/redis"
 	"github.com/gorilla/securecookie"
 	"github.com/gorilla/sessions"
+	"github.com/sahara-go/thinkgo/log"
 )
 
 // Amount of time for cookies/redis keys to expire.

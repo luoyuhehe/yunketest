@@ -2,9 +2,9 @@ package thinkgo
 
 import (
 	"fmt"
-	"gitee.com/sahara-go/thinkgo/db"
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
+	"github.com/sahara-go/thinkgo/db"
 	"sync"
 )
 

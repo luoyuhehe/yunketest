@@ -2,12 +2,12 @@ package captcha
 
 import (
 	"fmt"
-	"gitee.com/sahara-go/thinkgo"
-	"gitee.com/sahara-go/thinkgo/log"
-	"gitee.com/sahara-go/thinkgo/utils"
 	"github.com/gomodule/redigo/redis"
 	"github.com/mojocn/base64Captcha"
 	"github.com/pkg/errors"
+	"github.com/sahara-go/thinkgo"
+	"github.com/sahara-go/thinkgo/log"
+	"github.com/sahara-go/thinkgo/utils"
 	"sync"
 	"time"
 )

@@ -1,10 +1,10 @@
 package rbac
 
 import (
-	"gitee.com/sahara-go/thinkgo/model"
-	rbac_adapter "gitee.com/sahara-go/thinkgo/rbac/adapter"
 	"github.com/casbin/casbin/v2"
 	"github.com/jinzhu/gorm"
+	"github.com/sahara-go/thinkgo/model"
+	rbac_adapter "github.com/sahara-go/thinkgo/rbac/adapter"
 )
 
 type Rbac struct {

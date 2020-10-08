@@ -1,11 +1,11 @@
 package thinkgo
 
 import (
-	"gitee.com/sahara-go/thinkgo/session"
-	"gitee.com/sahara-go/thinkgo/session/session_store"
-	"gitee.com/sahara-go/thinkgo/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"
+	"github.com/sahara-go/thinkgo/session"
+	"github.com/sahara-go/thinkgo/session/session_store"
+	"github.com/sahara-go/thinkgo/utils"
 )
 
 var ContextSessionKey = utils.MD5V([]byte("thinkgo-session"))

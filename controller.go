@@ -1,8 +1,8 @@
 package thinkgo
 
 import (
-	"gitee.com/sahara-go/thinkgo/utils"
 	"github.com/gin-gonic/gin"
+	"github.com/sahara-go/thinkgo/utils"
 	"net/http"
 	"strings"
 )

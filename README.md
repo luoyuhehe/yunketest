@@ -120,7 +120,7 @@ rbac:
 package main
 
 import (
-	"gitee.com/sahara-go/thinkgo"
+	"github.com/sahara-go/thinkgo"
 	"github.com/gin-gonic/gin"
 	"gofast-admin/router"
 )
